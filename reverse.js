@@ -4,7 +4,6 @@ let index = 0
 
 const reverseArg = (argument) => {
   const newArray = []
-  const result = []
   for (let arg of argument) {
     newArray.push([])
     for (let i = arg.length; i >= 0; i--) {
@@ -16,11 +15,9 @@ const reverseArg = (argument) => {
   index += 1
 }
 
-console.log(newArray)
 for (let arguments of newArray) {
-  result.push(arguments.join(""))
+  console.log(arguments.join(""))
 }
-console.log("outcome:", result)
 }
 
 reverseArg(input)
