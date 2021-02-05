@@ -1,0 +1,1 @@
+onst loopyLighthouse = (range, multiples, words) => {};
